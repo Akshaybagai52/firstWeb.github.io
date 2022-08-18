@@ -7,14 +7,9 @@
     box-sizing: border-box;
   }
   
-  .container {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url("https://i.ibb.co/8Y1S96k/image.jpg");
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    overflow: auto;
+  header {
+    height: 10vh;
+    background-color: black;
   }
   
   label.logo {
@@ -27,7 +22,7 @@
     line-height: 80px;
     transition: 0.4s;
   }
-
+  
   label.logo:hover {
     color: #ff0161;
     text-decoration: underline;
@@ -43,7 +38,7 @@
     float: right;
     margin-right: 200px;
   }
-
+  
   nav ul li a {
     text-decoration: none;
     color: #fff;
@@ -58,27 +53,35 @@
     color: #fff;
     transition: 0.4s;
   }
-
-  nav ul li a:hover{
+  
+  nav ul li a:hover {
     text-decoration: underline;
     text-decoration-thickness: 5px;
     color: #ff0161;
   }
-
- 
   
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("https://i.ibb.co/8Y1S96k/image.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+  }
   
   .text {
     color: #fff;
     text-align: center;
+    position: relative;
+    top: 200px;
   }
   
   .text__h1 {
     font-size: 70px;
+    display: inline-block;
   }
   
   .btn {
-    margin: 30px 334px 0 333px;
     padding: 13px 55px 13px 56px;
     border-radius: 3px;
     border: 0;
@@ -88,27 +91,30 @@
     font-weight: bold;
     transition: 0.4s;
   }
-
+  
   .btn a {
     color: #fff;
   }
-
+  
   .btn:hover {
     background-color: #ff0161;
   }
   
-  .text {
-    margin-top: 210px;
+  .text__p {
+    margin-top: 10px;
+    margin-bottom: 33px;
+    font-size: 24px;
   }
   
-  .text__p {
-    padding-top: 8px;
-    font-size: 24px;
+  .middle1 {
+    margin: auto;
+    width: 70%;
+    margin-top: 108px;
   }
   
   .middle1__img {
     float: right;
-    padding-left: 50px;
+    margin-left: 50px;
   }
   
   .middle1__purple {
@@ -129,26 +135,20 @@
     display: inline-block;
     font-size: 22px;
     color: #ff0161;
-    padding-top: 5px;
+    margin-top: 5px;
     transition: 0.3s;
   }
-
+  
   .middle1__cta:hover {
     text-decoration: underline;
     text-decoration-thickness: 5px;
     color: #00e3aa;
   }
   
-  .middle1 {
-    margin: auto;
-    width: 70%;
-    margin-top: 108px;
-  }
-  
   .middle2 {
-    padding-top: 125px;
-    padding-left: 185px;
-    padding-right: 200px;
+    margin-top: 125px;
+    margin-left: 185px;
+    margin-right: 200px;
   }
   
   .midlle2__computer {
@@ -157,6 +157,14 @@
     height: 524px;
     margin: 0 70px 0 0;
     object-fit: contain;
+  }
+  .middle2__purple {
+    display: inline-block;
+    margin-top: 174px;
+    font-size: 22px;
+    color: #33325f;
+    font-weight: bold;
+    line-height: 1.5;
   }
   
   .middle2__lorem {
@@ -192,13 +200,9 @@
   }
   
   .bottom__div {
-    margin-top: 303px;
+    margin-top: 350px;
     margin-left: 200px;
-    margin-bottom: 250px;
-  }
-  
-  .bottom__ul {
-    line-height: 40px;
+    margin-bottom: 300px;
   }
   
   /* .bottom-div li::before {
@@ -225,14 +229,16 @@
   } */
   
   .bottom__ul li {
-    padding-right: 32px;
+    margin-right: 32px;
     padding-top: 23px;
   }
   
   .icon-check {
-    display: inline;
+    display: inline-block;
     font-size: 32px;
     color: #00e3aa;
+    position: relative;
+    top: 5px;
     padding-right: 9px;
   }
   
@@ -277,7 +283,7 @@
     vertical-align: top;
     transition: 0.4s;
   }
-
+  
   .footer__logo:hover {
     color: #ff0161;
     text-decoration: underline;
@@ -289,11 +295,11 @@
     padding-left: 354px;
     transition: 0.4s;
   }
-
+  
   .footer__img img {
     transition: 0.4s;
   }
-
+  
   .footer__img img:hover {
     filter: drop-shadow(0 0 0.75rem crimson);
   }
@@ -303,41 +309,25 @@
     color: #b9bdc3;
     width: 40px;
     height: 40px;
-    padding: 12px;
+    padding-top: 9px;
+    padding-left: 9px;
     border: 1px solid #b9bdc3;
     transition: 0.4s;
   }
-
-  .fa-instagram:hover{
+  
+  .fa-instagram:hover {
     color: #ff0161;
     border-color: #ff0161;
   }
-
+  
   .fa-facebook-f:hover {
-    color: #4267B2;
-    border-color: #4267B2;
-
+    color: #4267b2;
+    border-color: #4267b2;
   }
-
+  
   .fa-twitter:hover {
-    color: #1DA1F2;
-    border-color: #1DA1F2;
-  }
-  
-  .copyright {
-    height: 60px;
-    padding: 22px 0 24px 98px;
-  
-    border: solid 1px #e7e8ea;
-    background-color: #f8f9fa;
-    font-size: 11px;
-    color: #999ea8;
-  }
-  
-
-  .fa-twitter:hover {
-    color: #1DA1F2;
-    border-color: #1DA1F2;
+    color: #1da1f2;
+    border-color: #1da1f2;
   }
   
   .copyright {
