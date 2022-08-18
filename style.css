@@ -25,6 +25,13 @@
     padding-left: 203px;
     padding-top: 50px;
     line-height: 80px;
+    transition: 0.4s;
+  }
+
+  label.logo:hover {
+    color: #ff0161;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
   }
   
   nav {
@@ -36,13 +43,29 @@
     float: right;
     margin-right: 200px;
   }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+  }
   
   nav ul li {
     display: inline-block;
     line-height: 70px;
     margin: 0 30px;
+    text-decoration: none;
     color: #fff;
+    transition: 0.4s;
   }
+
+  nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    color: #ff0161;
+  }
+
+ 
   
   
   .text {
@@ -50,7 +73,7 @@
     text-align: center;
   }
   
-  .title {
+  .text__h1 {
     font-size: 70px;
   }
   
@@ -63,41 +86,57 @@
     background-color: rgb(69, 248, 188);
     color: #fff;
     font-weight: bold;
+    transition: 0.4s;
+  }
+
+  .btn a {
+    color: #fff;
+  }
+
+  .btn:hover {
+    background-color: #ff0161;
   }
   
   .text {
     margin-top: 210px;
   }
   
-  .p1 {
+  .text__p {
     padding-top: 8px;
     font-size: 24px;
   }
   
-  .lorem-img {
+  .middle1__img {
     float: right;
     padding-left: 50px;
   }
   
-  .lorem-pheading {
+  .middle1__purple {
     font-size: 22px;
     color: #33325f;
     font-weight: bold;
     line-height: 1.5;
   }
   
-  .lorem-p {
+  .middle1__lorem {
     font-size: 22px;
     line-height: 1.6;
     text-align: justify;
     margin: 5px 84px 5px 0;
   }
   
-  .cta-link {
+  .middle1__cta {
     display: inline-block;
     font-size: 22px;
     color: #ff0161;
     padding-top: 5px;
+    transition: 0.3s;
+  }
+
+  .middle1__cta:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    color: #00e3aa;
   }
   
   .middle1 {
@@ -112,7 +151,7 @@
     padding-right: 200px;
   }
   
-  .imac-img {
+  .midlle2__computer {
     float: left;
     width: 433px;
     height: 524px;
@@ -120,45 +159,45 @@
     object-fit: contain;
   }
   
-  .lorem-p2 {
+  .middle2__lorem {
     margin-top: 170px;
     font-size: 22px;
     line-height: 1.6;
     text-align: justify;
   }
   
-  .lorem-p3 {
+  .middle2__lorem2 {
     font-size: 17px;
     line-height: 1.6;
     margin: 26px 20px 0 0;
     text-align: left;
   }
   
-  .lorem-p3img {
+  .middle2__graph {
     float: right;
     padding-right: 200px;
     padding-left: 30px;
   }
   
-  .ipad {
+  .bottom__ipad {
     float: right;
     margin: 0 0 0 45px;
   }
   
-  .bottom-p1 {
+  .bottom__lorem {
     font-size: 22px;
     line-height: 1.6;
     text-align: justify;
     padding-top: 83px;
   }
   
-  .bottom-div {
+  .bottom__div {
     margin-top: 303px;
     margin-left: 200px;
     margin-bottom: 250px;
   }
   
-  .bottom-ul {
+  .bottom__ul {
     line-height: 40px;
   }
   
@@ -185,7 +224,7 @@
     display: inline;
   } */
   
-  .bottom-ul li {
+  .bottom__ul li {
     padding-right: 32px;
     padding-top: 23px;
   }
@@ -205,30 +244,30 @@
     border-radius: 50%;
   } */
   
-  .bottom-ul1 {
+  .bottom__ul1 {
     font-size: 19px;
     color: #33325f;
     float: left;
   }
   
-  .bottom-ul2 {
+  .bottom__ul2 {
     color: #33325f;
     font-size: 19px;
   }
   
-  .footer-div {
+  .footer__div {
     padding: 60px 98px 39px;
     border: solid 1px #e7e8ea;
     background-color: #fbfafc;
   }
   
-  .div-icons {
+  .footer__icons {
     float: right;
     line-height: 120px;
     font-size: 0;
   }
   
-  .footer-logo {
+  .footer__logo {
     text-align: justify;
     font-size: 20px;
     font-weight: bold;
@@ -236,11 +275,27 @@
     display: inline-block;
     line-height: 100px;
     vertical-align: top;
+    transition: 0.4s;
+  }
+
+  .footer__logo:hover {
+    color: #ff0161;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
   }
   
-  .footer-img {
+  .footer__img {
     display: inline-block;
     padding-left: 354px;
+    transition: 0.4s;
+  }
+
+  .footer__img img {
+    transition: 0.4s;
+  }
+
+  .footer__img img:hover {
+    filter: drop-shadow(0 0 0.75rem crimson);
   }
   
   .icons {
@@ -250,6 +305,23 @@
     height: 40px;
     padding: 12px;
     border: 1px solid #b9bdc3;
+    transition: 0.4s;
+  }
+
+  .fa-instagram:hover{
+    color: #ff0161;
+    border-color: #ff0161;
+  }
+
+  .fa-facebook-f:hover {
+    color: #4267B2;
+    border-color: #4267B2;
+
+  }
+
+  .fa-twitter:hover {
+    color: #1DA1F2;
+    border-color: #1DA1F2;
   }
   
   .copyright {
