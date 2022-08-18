@@ -334,3 +334,19 @@
     color: #999ea8;
   }
   
+
+  .fa-twitter:hover {
+    color: #1DA1F2;
+    border-color: #1DA1F2;
+  }
+  
+  .copyright {
+    height: 60px;
+    padding: 22px 0 24px 98px;
+  
+    border: solid 1px #e7e8ea;
+    background-color: #f8f9fa;
+    font-size: 11px;
+    color: #999ea8;
+  }
+  
