@@ -8,9 +8,9 @@
 }
 
 header {
-  height: 10vh;
-  width: 1100px;
-  margin: 0 auto;
+  height: 70px;
+  max-width: 1200px;
+  margin: auto;
 }
 
 label.logo {
@@ -30,7 +30,8 @@ label.logo:hover {
 
 nav {
   height: 70px;
-  width: 100%;
+  width: 900px;
+  margin: auto;
 }
 
 nav ul {
@@ -62,12 +63,13 @@ nav ul li a:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("https://i.ibb.co/8Y1S96k/image.jpg");
   height: 100vh;
-  width: 100%;
+  max-width: 100%;
   background-size: cover;
   background-position: bottom;
   position: relative;
-  bottom: 10vh;
+  bottom: 70px;
   z-index: -1;
+  margin: 0 auto;
 }
 
 .text {
@@ -80,10 +82,10 @@ nav ul li a:hover {
   position: absolute;
   /* top: auto; */
   /* top: 40%; */
-  height: 20vh;
-  margin: auto;
+  margin: 0 auto;
   width: 100%;
-  top: 40vh;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .text__h1 {
@@ -117,14 +119,14 @@ nav ul li a:hover {
 }
 
 .container {
-  position: relative;
   text-align: center;
   margin: auto;
-  max-width: 1200px;
+  max-width: 1400px;
+  position: relative;
 }
 
 .middle1 {
-  max-width: 900px;
+  width: 900px;
   margin: auto;
   margin-top: 108px;
 }
@@ -146,6 +148,7 @@ nav ul li a:hover {
   line-height: 1.6;
   text-align: justify;
   margin: 5px 84px 5px 0;
+  clear: left;
 }
 
 .middle1__cta {
@@ -163,19 +166,20 @@ nav ul li a:hover {
 }
 
 .middle2 {
+  width: 1000px;
   margin: auto;
   margin-top: 125px;
   margin-bottom: 359px;
-  margin-left: 100px;
 }
 
 .midlle2__computer {
   float: left;
   width: 433px;
   height: 524px;
-  margin: 0 70px 0 0;
+  margin: 0 70px 0 30px;
   object-fit: contain;
 }
+
 .middle2__purple {
   display: inline-block;
   font-size: 22px;
@@ -186,21 +190,24 @@ nav ul li a:hover {
 }
 
 .middle2__lorem {
+  clear: right;
   font-size: 22px;
   line-height: 1.6;
   text-align: justify;
-  margin-right: 100px;
 }
 
 .middle2__lorem2 {
   font-size: 17px;
   line-height: 1.6;
-  margin: 26px 120px 0 0;
+  margin-top: 45px;
   text-align: left;
+  clear: right;
 }
 
 .middle2__line {
-  position: relative;
+  position: absolute;
+  width: 640px;
+  right: 0;
 }
 
 .middle2__graph {
@@ -219,10 +226,11 @@ nav ul li a:hover {
   line-height: 1.6;
   text-align: justify;
   padding-top: 83px;
+  clear: left;
 }
 
 .bottom__div {
-  width: 1100px;
+  width: 1070px;
   margin: auto;
   margin-bottom: 232px;
   position: relative;
@@ -254,17 +262,17 @@ nav ul li a:hover {
 
 .bottom__ul {
   line-height: 35px;
-  display: inline;
+  margin-top: 8px;
 }
 
 .icon-check {
   font-size: 32px;
   color: #00e3aa;
+  margin-right: 7px;
   /* position: relative; */
   /* top: 5px; */
   /* padding-right: 9px; */
   height: 35px;
-  width: 50px;
   vertical-align: middle;
 }
 
@@ -277,7 +285,6 @@ nav ul li a:hover {
 } */
 
 .bottom__ul1 {
-  margin-right: 20px;
   font-size: 19px;
   color: #33325f;
   float: left;
@@ -288,18 +295,18 @@ nav ul li a:hover {
   color: #33325f;
   font-size: 19px;
   line-height: 40px;
+  float: left;
+  margin-left: 25px;
 }
 
 footer {
   border: solid 1px #e7e8ea;
   background-color: #fbfafc;
-  max-width: 1400px;
   margin: auto;
 }
 
 .footer__div {
   max-width: 1100px;
-  width: 85%;
   margin: 0 auto;
 }
 
@@ -381,15 +388,19 @@ footer {
 }
 
 .copyright__div {
-  max-width: 1400px;
+  border: solid 1px #e7e8ea;
+  background-color: #f8f9fa;
   margin: 0 auto;
+  text-align: center;
 }
 
 .copyright {
+  width: 1300px;
   height: 60px;
-  padding: 22px 0 24px 98px;
-  border: solid 1px #e7e8ea;
-  background-color: #f8f9fa;
+  padding: 22px 0 24px 70px;
+  margin: 0 auto;
+  display: inline-block;
   font-size: 11px;
   color: #999ea8;
+  text-align: left;
 }
