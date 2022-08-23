@@ -17,9 +17,9 @@ label.logo {
   color: #fff;
   font-size: 19px;
   cursor: pointer;
-
   line-height: 80px;
   transition: 0.4s;
+  padding-left: 90px;
 }
 
 label.logo:hover {
@@ -30,7 +30,6 @@ label.logo:hover {
 
 nav {
   height: 70px;
-  width: 900px;
   margin: auto;
 }
 
@@ -89,7 +88,7 @@ nav ul li a:hover {
 }
 
 .text__h1 {
-  font-size: 70px;
+  font-size: 63px;
   display: inline-block;
 }
 
@@ -106,6 +105,7 @@ nav ul li a:hover {
 
 .btn a {
   color: #fff;
+  transition: 0.4s;
 }
 
 .btn:hover {
@@ -121,14 +121,13 @@ nav ul li a:hover {
 .container {
   text-align: center;
   margin: auto;
-  max-width: 1400px;
-  position: relative;
+  max-width: 1100px;
 }
 
 .middle1 {
-  width: 900px;
   margin: auto;
   margin-top: 108px;
+  padding-left: 45px;
 }
 
 .middle1__img {
@@ -166,7 +165,6 @@ nav ul li a:hover {
 }
 
 .middle2 {
-  width: 1000px;
   margin: auto;
   margin-top: 125px;
   margin-bottom: 359px;
@@ -206,7 +204,7 @@ nav ul li a:hover {
 
 .middle2__line {
   position: absolute;
-  width: 640px;
+  width: 51%;
   right: 0;
 }
 
@@ -230,7 +228,6 @@ nav ul li a:hover {
 }
 
 .bottom__div {
-  width: 1070px;
   margin: auto;
   margin-bottom: 232px;
   position: relative;
@@ -288,13 +285,13 @@ nav ul li a:hover {
   font-size: 19px;
   color: #33325f;
   float: left;
-  line-height: 40px;
+  line-height: 44px;
 }
 
 .bottom__ul2 {
   color: #33325f;
   font-size: 19px;
-  line-height: 40px;
+  line-height: 44px;
   float: left;
   margin-left: 25px;
 }
@@ -306,7 +303,7 @@ footer {
 }
 
 .footer__div {
-  max-width: 1100px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -386,6 +383,7 @@ footer {
   color: #1da1f2;
   border-color: #1da1f2;
 }
+
 .copyright__div {
   border: solid 1px #e7e8ea;
   background-color: #f8f9fa;
@@ -396,7 +394,7 @@ footer {
 .copyright {
   width: 1300px;
   height: 60px;
-  padding: 22px 0 24px 70px;
+  padding: 22px 0 24px 40px;
   margin: 0 auto;
   display: inline-block;
   font-size: 11px;
