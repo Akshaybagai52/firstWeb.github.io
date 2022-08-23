@@ -71,7 +71,7 @@ nav ul li a:hover {
   margin: 0 auto;
 }
 
-.text {
+.hero__content {
   /* color: #fff;
   text-align: center;
   position: relative;
@@ -87,7 +87,7 @@ nav ul li a:hover {
   transform: translateY(-50%);
 }
 
-.text__h1 {
+.hero__heading {
   font-size: 63px;
   display: inline-block;
 }
@@ -112,7 +112,7 @@ nav ul li a:hover {
   background-color: #ff0161;
 }
 
-.text__p {
+.hero__p {
   margin-top: 10px;
   margin-bottom: 33px;
   font-size: 24px;
@@ -124,25 +124,25 @@ nav ul li a:hover {
   max-width: 1100px;
 }
 
-.middle1 {
+.top {
   margin: auto;
   margin-top: 108px;
   padding-left: 45px;
 }
 
-.middle1__img {
+.top__img {
   float: right;
   margin-left: 50px;
 }
 
-.middle1__purple {
+.top__purple {
   font-size: 22px;
   color: #33325f;
   font-weight: bold;
   line-height: 1.5;
 }
 
-.middle1__lorem {
+.top__lorem {
   font-size: 22px;
   line-height: 1.6;
   text-align: justify;
@@ -150,7 +150,7 @@ nav ul li a:hover {
   clear: left;
 }
 
-.middle1__cta {
+.top__cta {
   display: inline-block;
   font-size: 22px;
   color: #ff0161;
@@ -158,19 +158,19 @@ nav ul li a:hover {
   transition: 0.3s;
 }
 
-.middle1__cta:hover {
+.top__cta:hover {
   text-decoration: underline;
   text-decoration-thickness: 5px;
   color: #00e3aa;
 }
 
-.middle2 {
+.center {
   margin: auto;
   margin-top: 125px;
   margin-bottom: 359px;
 }
 
-.midlle2__computer {
+.center__computer {
   float: left;
   width: 433px;
   height: 524px;
@@ -178,7 +178,7 @@ nav ul li a:hover {
   object-fit: contain;
 }
 
-.middle2__purple {
+.center__purple {
   display: inline-block;
   font-size: 22px;
   color: #33325f;
@@ -187,14 +187,14 @@ nav ul li a:hover {
   margin-top: 170px;
 }
 
-.middle2__lorem {
+.center__lorem {
   clear: right;
   font-size: 22px;
   line-height: 1.6;
   text-align: justify;
 }
 
-.middle2__lorem2 {
+.center__lorem2 {
   font-size: 17px;
   line-height: 1.6;
   margin-top: 45px;
@@ -202,13 +202,13 @@ nav ul li a:hover {
   clear: right;
 }
 
-.middle2__line {
+.center__line {
   position: absolute;
   width: 51%;
   right: 0;
 }
 
-.middle2__graph {
+.center__graph {
   float: right;
   margin-left: 15px;
 }
@@ -227,7 +227,15 @@ nav ul li a:hover {
   clear: left;
 }
 
-.bottom__div {
+.bottom__purple {
+  display: inline-block;
+  font-size: 22px;
+  color: #33325f;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.bottom {
   margin: auto;
   margin-bottom: 232px;
   position: relative;
